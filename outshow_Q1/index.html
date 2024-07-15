@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>outshow</title>
+</head>
+<body>
+ 
+    <input type="button" value="Increase Font Size " onclick="increase()">
+     <p id="p1">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Odio earum doloribus modi porro? Magni totam natus nostrum autem</p>
+
+    <input type="button" value="Decrease font size" onclick="Decrease()">
+
+
+<script> 
+    function increase() {
+        document.getElementById('p1').style.fontSize = "100px";
+    }
+
+    function Decrease() {
+        document.getElementById('p1').style.fontSize = "20px";            
+        
+    }
+</script>
+</body>
+</html>
